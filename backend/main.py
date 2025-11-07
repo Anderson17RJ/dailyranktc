@@ -29,11 +29,16 @@ def get_top50():
     })
 
     if r.status_code != 200:
+        print(f"Erro HTTP {r.status_code} ao acessar {url}")
+        print("Conteudo retornado:")
+        print(r.text)
         raise Exception(f"Erro ao buscar dados do top50: {r.status_code}")
     
     try:
         return r.json()["killers"][:50]
     except Exception as e:
+        print("Erro ao decodificar JSON:")
+        print(r.text)
         raise Exception(f"Erro ao processar JSON do top50: {e}")
 
 
