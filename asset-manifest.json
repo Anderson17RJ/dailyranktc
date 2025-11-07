@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dailyranktc/static/css/main.e6c13ad2.css",
+    "main.js": "/dailyranktc/static/js/main.2055047a.js",
+    "static/js/453.d7446e4a.chunk.js": "/dailyranktc/static/js/453.d7446e4a.chunk.js",
+    "index.html": "/dailyranktc/index.html",
+    "main.e6c13ad2.css.map": "/dailyranktc/static/css/main.e6c13ad2.css.map",
+    "main.2055047a.js.map": "/dailyranktc/static/js/main.2055047a.js.map",
+    "453.d7446e4a.chunk.js.map": "/dailyranktc/static/js/453.d7446e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2055047a.js"
+  ]
+}
